@@ -30,7 +30,7 @@ const Sidebar = () => {
           </li>
           <p className="title">LISTS</p>
           <li>
-            <PersonIcon />
+            <PersonIcon className="icon" />
             <span>Users</span>
           </li>
           <li>
@@ -38,7 +38,7 @@ const Sidebar = () => {
             <span>Products</span>
           </li>
           <li>
-            <ListAltIcon />
+            <ListAltIcon className="icon" />
             <span>Orders</span>
           </li>
           <li>
@@ -47,7 +47,7 @@ const Sidebar = () => {
           </li>
           <p className="title">USEFUL</p>
           <li>
-            <QueryStatsIcon />
+            <QueryStatsIcon className="icon" />
             <span>Stats</span>
           </li>
           <li>
@@ -56,7 +56,7 @@ const Sidebar = () => {
           </li>
           <p className="title">SERVICE</p>
           <li>
-            <LocalHospitalIcon />
+            <LocalHospitalIcon className="icon" />
             <span>System Health</span>
           </li>
           <li>
@@ -64,7 +64,7 @@ const Sidebar = () => {
             <span>Logs</span>
           </li>
           <li>
-            <SettingsIcon />
+            <SettingsIcon className="icon" />
             <span>Settings</span>
           </li>
           <p className="title">USER</p>
@@ -78,7 +78,11 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="bottom">color options</div>
+      <div className="bottom">
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+      </div>
     </div>
   );
 };
