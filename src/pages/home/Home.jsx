@@ -1,4 +1,6 @@
 import React from "react";
+import Charts from "../../components/charts/Charts";
+import Featured from "../../components/featured/Featured";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
@@ -15,6 +17,10 @@ const Home = () => {
           <Widget type="order" />
           <Widget type="earning" />
           <Widget type="balance" />
+        </div>
+        <div className="charts">
+          <Featured />
+          <Charts />
         </div>
       </div>
     </div>
