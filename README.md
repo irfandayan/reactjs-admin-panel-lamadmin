@@ -1,4 +1,4 @@
-<h1><a href="https://react-admin-exm.netlify.app/"> Live Site </a></h1>
+<h1><a href="https://lamaadmin.netlify.app/"> Live Site </a></h1>
 
 <h2>React Admin Panel </h2>
 
